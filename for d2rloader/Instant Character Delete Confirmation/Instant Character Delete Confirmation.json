@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "Instant Character Delete Confirmation Delay",
+  "description": "Sets the character-delete confirmation modal delay to zero.",
+  "patches": [
+    {
+      "description": "Replace the DeleteCharacterModal five-second nanosecond delay with zero",
+      "op": "bytes",
+      "rva": "0x153F4A7",
+      "bytes": "48 B8 00 00 00 00 00 00 00 00",
+      "expected": "48 B8 00 F2 05 2A 01 00 00 00"
+    }
+  ]
+}
