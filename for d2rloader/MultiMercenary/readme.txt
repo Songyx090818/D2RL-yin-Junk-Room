@@ -1,4 +1,8 @@
-need more test
+need more test...
+
+For example, with Mercenary A and Mercenary B:
+1. When both Mercenaries A and B are dead: You cannot replace them with a new mercenary.
+2. When either Mercenary A or B is dead: You can replace the dead mercenary with a new one.
 
 plugins
 d2rloader\plugins\MultiMercenary.dll
