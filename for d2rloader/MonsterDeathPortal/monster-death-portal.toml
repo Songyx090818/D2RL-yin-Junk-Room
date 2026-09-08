@@ -58,8 +58,12 @@ monstats = ["fallen1", "fallen1"]
 # source_level = 3
 # chance = 20
 
-# Multiple names must all be killed, in any order.
-# A monster matching both arrays fills only its superuniques condition.
-# Multiple-name rules attempt once per rule per game, with no reroll after failure.
-# Single-name rules attempt on every matching death.
-# Matching blocks run independently. Do not enable overlapping examples together.
+# Each listed entry requires one kill. Repeated names require separate kills.
+# Required kills can be completed in any order.
+# One death fills only one entry per matching rule.
+# A monster listed in both arrays fills only its superuniques entries.
+# After those entries are complete, it does not fill monstats entries.
+# Rules with multiple entries require source_level.
+# They attempt once per game after all required kills, with no reroll after failure.
+# Single-entry rules attempt on every matching death.
+# Matching blocks run independently and may each create a portal.
