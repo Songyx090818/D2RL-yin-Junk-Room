@@ -1,20 +1,65 @@
-# MonsterDeathPortal
-# Restart D2RLoader after changing this file.
-#
-# Format: "monster name" = destination level ID (1..255).
-# The destination can be in any act.
-#
-# [superuniques]: use the "Superunique" column from superuniques.txt.
-# [monstats]: use the "Id" column from monstats.txt.
-# Use these column values, not the names displayed in-game.
-# For the destination, use the "Id" column from levels.txt.
-#
-# If a monster matches both sections, [superuniques] takes priority.
-# Uncomment an example to enable it, or add your own entry.
+play_sound = true
 
-[superuniques]
-# "Rakanishu" = 132
-# "Corpsefire" = 39
+[[portals]]
+destination = 37
+source_level = 4
+superuniques = ["Rakanishu"]
 
-[monstats]
-# "zombie1" = 39
+[[portals]]
+destination = 136
+source_level = 37
+monstats = ["fallen1", "fallen1"]
+
+# MonsterDeathPortal - restart D2RLoader after changing this file.
+# Each [[portals]] block defines one portal rule. Include only the options you need.
+# Required: destination and at least one name in monstats or superuniques.
+# source_level: optional for one name (omitted = any area); needed for multiple names.
+# play_sound: global option above all portal blocks; true by default, false disables opening sounds.
+# chance: always optional (omitted = guaranteed creation).
+# Level IDs refer to areas in Levels.txt (1..255), not character levels.
+# chance accepts integers from 0.0000001 to 99.9999999 1 = 1%, 20 = 20%.
+# The active rule above opens a portal to level 39 whenever Bishibosh is killed.
+
+# The examples below are commented out. Remove # from the entire block to use it.
+# monstats: Id column in monstats.txt; superuniques: Superunique column in superuniques.txt.
+# Use internal names, not translated display names or hcIdx. Keep name arrays on one line.
+
+# Basic rule: every zombie1 killed in any area opens a portal.
+# [[portals]]
+# destination = 39
+# monstats = ["zombie1"]
+
+# Chance only: each zombie1 killed in any area has a 1% chance to open a portal.
+# [[portals]]
+# destination = 39
+# monstats = ["zombie1"]
+# chance = 1
+
+# Area and chance: each zombie1 killed in level 2 has a 1% chance to open a portal.
+# [[portals]]
+# destination = 39
+# monstats = ["zombie1"]
+# source_level = 2
+# chance = 1
+
+# Additional kills: kill both monster types in level 2 for guaranteed creation.
+# Multiple names need source_level. If it is omitted, that rule does not apply.
+# [[portals]]
+# destination = 39
+# monstats = ["zombie1", "fallen1"]
+# source_level = 2
+
+# Mixed types: kill both the superunique and the monster type in level 3, then roll 20%.
+# Use names of monsters that your mod actually places in that area.
+# [[portals]]
+# destination = 39
+# superuniques = ["Bishibosh"]
+# monstats = ["zombie1"]
+# source_level = 3
+# chance = 20
+
+# Multiple names must all be killed, in any order.
+# A monster matching both arrays fills only its superuniques condition.
+# Multiple-name rules attempt once per rule per game, with no reroll after failure.
+# Single-name rules attempt on every matching death.
+# Matching blocks run independently. Do not enable overlapping examples together.
