@@ -4,6 +4,7 @@ play_sound = true
 destination = 37
 source_level = 4
 superuniques = ["Rakanishu"]
+difficulty = ["nightmare"]
 
 [[portals]]
 destination = 136
@@ -15,6 +16,7 @@ monstats = ["fallen1", "fallen1"]
 # Required: destination and at least one name in monstats or superuniques.
 # source_level: optional for one name (omitted = any area); needed for multiple names.
 # play_sound: global option above all portal blocks; true by default, false disables opening sounds.
+# difficulty: optional array of normal, nightmare, hell (omitted = all; [] = none).
 # chance: always optional (omitted = guaranteed creation).
 # Level IDs refer to areas in Levels.txt (1..255), not character levels.
 # chance accepts integers from 0.0000001 to 99.9999999 1 = 1%, 20 = 20%.
@@ -58,12 +60,16 @@ monstats = ["fallen1", "fallen1"]
 # source_level = 3
 # chance = 20
 
-# Each listed entry requires one kill. Repeated names require separate kills.
-# Required kills can be completed in any order.
-# One death fills only one entry per matching rule.
-# A monster listed in both arrays fills only its superuniques entries.
-# After those entries are complete, it does not fill monstats entries.
-# Rules with multiple entries require source_level.
-# They attempt once per game after all required kills, with no reroll after failure.
-# Single-entry rules attempt on every matching death.
-# Matching blocks run independently and may each create a portal.
+# Multiple names must all be killed, in any order.
+# A monster matching both arrays fills only its superuniques condition.
+# Multiple-name rules attempt once per rule per game, with no reroll after failure.
+# Single-name rules attempt on every matching death.
+# Matching blocks run independently. Do not enable overlapping examples together.
+
+# Difficulty only: Bishibosh opens this portal on Normal and Nightmare.
+# Use ["hell"] for Hell only, or omit difficulty for all three difficulties.
+# Works with either monster array, source_level, required kills, and chance.
+# [[portals]]
+# destination = 39
+# superuniques = ["Bishibosh"]
+# difficulty = ["normal", "nightmare"]
