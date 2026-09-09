@@ -6,4 +6,34 @@
 # excluded_monsters = ["zombie1", "fallen1", "andariel", "Bishibosh"]
 [monster_kill_counter]
 rewards_enabled = false
-excluded_monsters = []
+excluded_monsters = [
+    "cain1", "gheed", "akara", "kashya", "rogue1",
+    "charsi", "warriv1", "warriv2", "atma", "drognan",
+    "fara", "camel", "act2male", "act2female", "act2child",
+    "greiz", "elzix", "geglash", "jerhyn", "lysander",
+    "act2guard1", "act2vendor1", "act2vendor2", "meshif1", "cain2",
+    "cain3", "cain4", "tyrael1", "asheara", "hratli",
+    "alkor", "ormus", "halbu", "meshif2", "cain5",
+    "navi", "rogue2", "rogue3", "act3male", "act3female",
+    "natalya", "act2guard2", "tyrael2", "act2guard4", "act2guard5",
+    "jamella", "izualghost", "malachai", "larzuk", "drehya",
+    "malah", "nihlathak", "qual-kehk", "cain6", "tyrael3",
+    "drehyaiced", "ancientstatue1", "ancientstatue2", "ancientstatue3",
+    "roguehire", "act2hire", "act3hire", "act5hire1", "act5hire2",
+    "chicken", "rat", "bird1", "bird2", "bat",
+    "cow", "maggot", "bug", "scorpion", "larva",
+    "snake", "parrot", "fish", "minispider", "eagle",
+    "bunny", "horse", "pig", "seagull",
+    "claygolem", "bloodgolem", "irongolem", "firegolem", "bonewall",
+    "hydra1", "hydra2", "hydra3", "dopplezon", "valkyrie",
+    "necroskeleton", "necromage", "wakeofdestruction", "chargeboltsentry", "lightningsentry",
+    "bladecreeper", "invisopet", "infernosentry", "deathsentry", "shadowwarrior",
+    "shadowmaster", "druidhawk", "spiritwolf", "fenris", "spiritofbarbs",
+    "heartofwolverine", "oaksage", "plaguepoppy", "cycleoflife", "vinecreature",
+    "druidbear", "wolf", "bear", "wargoatman", "warbighead",
+    "warputriddefiler",
+    "act2guard3", "act5barb1", "act5barb2", "act5pow", "act5barb3",
+    "act5barb4",
+    "gargoyletrap", "trap-firebolt", "trap-horzmissile", "trap-vertmissile", "trap-poisoncloud",
+    "trap-lightning", "trap-melee", "trap-nova",
+]
