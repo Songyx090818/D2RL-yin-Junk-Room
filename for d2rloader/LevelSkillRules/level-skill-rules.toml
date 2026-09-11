@@ -7,13 +7,13 @@ enabled = true
 # Cooldowns use native game frames, not rendering frames or milliseconds.
 [[rules]]
 level_ids = [2]
-skill_ids = [36, 54]  # Teleport
+skill_ids = [36, 54]  # FireBolt and Teleport
 allowed = true
 min_cooldown_frames = 25
 
 [[rules]]
 level_ids = [3]
-skill_ids = [36]  # Teleport
+skill_ids = [36]  # FireBolt
 allowed = true
 min_cooldown_frames = 25
 
