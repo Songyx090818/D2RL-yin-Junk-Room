@@ -1,0 +1,26 @@
+# Add [[rules]] sections below, then restart D2RLoader.
+# No active rules by default; no hooks are installed until needed.
+enabled = true
+
+# Example: minimum Teleport cooldown in these level IDs.
+# IDs are examples: replace them with the levels used by your mod.
+# Cooldowns use native game frames, not rendering frames or milliseconds.
+[[rules]]
+level_ids = [2]
+skill_ids = [36, 54]  # Teleport
+allowed = true
+min_cooldown_frames = 25
+
+[[rules]]
+level_ids = [3]
+skill_ids = [36]  # Teleport
+allowed = true
+min_cooldown_frames = 25
+
+# Example: prohibit several active skills in another level.
+# [[rules]]
+# level_ids = [10]
+# skill_ids = [54, 43]
+# allowed = false
+# min_cooldown_frames = 0
+
