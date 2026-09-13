@@ -1,0 +1,453 @@
+{
+  "cellPixels": 98,
+  "backgrounds": [
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/1x1",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/1x2",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/2x1",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/1x3",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/1x4",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/2x2",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/2x3",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "inferior",
+        "normal",
+        "superior"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/normal/2x4",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/1x1",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/1x2",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/2x1",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/1x3",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/1x4",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/2x2",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/2x3",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "magic"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/magic/2x4",
+      "opacity": 0.55
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/1x1",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/1x2",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/2x1",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/1x3",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/1x4",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/2x2",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/2x3",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "rare"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/rare/2x4",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/set/1x1",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/set/1x2",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/set/2x1",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/set/1x3",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/set/1x4",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/set/2x2",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/set/2x3",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "set"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/set/2x4",
+      "opacity": 0.5
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/1x1",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/1x2",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/2x1",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/1x3",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/1x4",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/2x2",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/2x3",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "unique"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/unique/2x4",
+      "opacity": 0.6
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 1,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/1x1",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 1,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/1x2",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 2,
+      "height": 1,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/2x1",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 1,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/1x3",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 1,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/1x4",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 2,
+      "height": 2,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/2x2",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 2,
+      "height": 3,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/2x3",
+      "opacity": 0.65
+    },
+    {
+      "qualities": [
+        "crafted"
+      ],
+      "width": 2,
+      "height": 4,
+      "sprite": "d2rloader/item-quality-backgrounds/crafted/2x4",
+      "opacity": 0.65
+    }
+  ]
+}
