@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "Increase Icon Slots to 64",
+  "description": "Increase portrait slots to 64, allowing 57 mercenary and summon icons with the standard HD layout.",
+  "patches": [
+    {
+      "description": "Create 64 portrait slots instead of 16",
+      "op": "bytes",
+      "rva": "0x1E5F9F",
+      "bytes": "48 C7 83 6C 01 00 00 40 00 00 00",
+      "expected": "48 C7 83 6C 01 00 00 10 00 00 00"
+    }
+  ]
+}
