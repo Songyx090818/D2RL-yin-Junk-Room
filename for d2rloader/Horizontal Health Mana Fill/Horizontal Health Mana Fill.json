@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "name": "Horizontal Health Mana Fill",
+  "description": "Fill health and mana from left to right, including potion previews.",
+  "patches": [
+    {
+      "description": "Use widget width for the current health and mana fill",
+      "op": "bytes",
+      "rva": "0x3E2D130",
+      "expected": "8B 44 24 4C",
+      "bytes": "8B 44 24 48"
+    },
+    {
+      "description": "Use widget width for the potion recovery preview",
+      "op": "bytes",
+      "rva": "0x14C9F9C",
+      "expected": "8B 5C 24 4C",
+      "bytes": "8B 5C 24 48"
+    },
+    {
+      "description": "Place the potion preview to the right of the current fill",
+      "op": "bytes",
+      "rva": "0x14C9FC2",
+      "expected": "44 89 6C 24 28 41 8B C4 89 54 24 34 2B C2 41 2B C6 03 C3 89 44 24 2C 8B 44 24 48 89 44 24 30",
+      "bytes": "43 8D 44 35 00 89 44 24 28 44 89 64 24 2C 89 54 24 30 8B 44 24 4C 89 44 24 34 90 90 90 90 90"
+    },
+    {
+      "description": "Clip the current fill horizontally from the left edge",
+      "op": "bytes",
+      "rva": "0x14CA0B8",
+      "expected": "41 8B C4 44 89 6C 24 28 41 2B C6 44 89 74 24 34 03 C3 89 44 24 2C 8B 44 24 48 89 44 24 30",
+      "bytes": "44 89 6C 24 28 44 89 64 24 2C 44 89 74 24 30 8B 44 24 4C 89 44 24 34 90 90 90 90 90 90 90"
+    },
+    {
+      "description": "Keep the vertical-only liquid edge image hidden",
+      "op": "bytes",
+      "rva": "0x14CA19C",
+      "expected": "B2 01",
+      "bytes": "B2 00"
+    }
+  ]
+}
