@@ -1,0 +1,2031 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [],
+    "skeletons": [],
+    "animations": [
+      {
+        "path": "data/hd/character/player/necromancer/animation/1hs_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/1ht_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/1js_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/1jt_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/1ss_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/1st_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/2hs_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/2ht_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/bow_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/hth_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/stf_hit.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_180_turn_ccw_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_180_turn_cw_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_attack1_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_attack2_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_block_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_cast_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_fidget_01_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_fidget_02_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_gethit_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_kick_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_knockback_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_neutral_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_run_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_skill2_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_start_run_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_stop_run_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_stop_run_town_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_townfidget_01_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_townfidget_02_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_townneutral_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_townwalk_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/weapon/1hs_walk_flail.animation"
+      },
+      {
+        "path": "data/hd/character/player/necromancer/animation/xbw_hit.animation"
+      }
+    ],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "AnimationStateMachine",
+  "name": "act4hire_flail_state_machine",
+  "unitType": "UNIT_MONSTER",
+  "animations": [
+    {
+      "type": "AnimationItem",
+      "name": "hth_hit",
+      "filename": "data/hd/character/player/necromancer/animation/hth_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "bow_hit",
+      "filename": "data/hd/character/player/necromancer/animation/bow_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1hs_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1ht_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1ht_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "stf_hit",
+      "filename": "data/hd/character/player/necromancer/animation/stf_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "2hs_hit",
+      "filename": "data/hd/character/player/necromancer/animation/2hs_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "2ht_hit",
+      "filename": "data/hd/character/player/necromancer/animation/2ht_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "xbw_hit",
+      "filename": "data/hd/character/player/necromancer/animation/xbw_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1js_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1js_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1jt_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1jt_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1ss_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1ss_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1st_hit",
+      "filename": "data/hd/character/player/necromancer/animation/1st_hit.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_attack2_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_attack2_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_block_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_block_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_cast_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_cast_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_gethit_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_gethit_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_kick_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_kick_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_neutral_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_neutral_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_run_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_run_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_skill2_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_skill2_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_townneutral_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_townneutral_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_townwalk_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_townwalk_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_walk_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_walk_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_180_turn_cw_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_180_turn_cw_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_180_turn_ccw_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_180_turn_ccw_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_attack1_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_attack1_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_stop_run_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_stop_run_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_stop_run_town_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_stop_run_town_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_start_run_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_start_run_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_fidget_02_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_fidget_02_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_fidget_01_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_fidget_01_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_townfidget_01_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_townfidget_01_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_townfidget_02_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_townfidget_02_flail.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "1hs_knockback_flail",
+      "filename": "data/hd/character/player/necromancer/animation/weapon/1hs_knockback_flail.animation"
+    }
+  ],
+  "states": [
+    {
+      "type": "AnimationState",
+      "name": "State_Death",
+      "_name": "Death",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 0,
+      "enableVfxAttributes": false,
+      "modeId": 0,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {},
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Neutral",
+      "_name": "Neutral",
+      "audioId": "",
+      "loopCount": 0,
+      "stateId": 1,
+      "enableVfxAttributes": false,
+      "modeId": 1,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_neutral_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Walk",
+      "_name": "Walk",
+      "audioId": "",
+      "loopCount": 0,
+      "stateId": 2,
+      "enableVfxAttributes": false,
+      "modeId": 2,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_walk_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Run",
+      "_name": "Run",
+      "audioId": "",
+      "loopCount": 0,
+      "stateId": 3,
+      "enableVfxAttributes": false,
+      "modeId": 15,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_run_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Hit",
+      "_name": "Hit",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 4,
+      "enableVfxAttributes": false,
+      "modeId": 3,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_gethit_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Attack1",
+      "_name": "Attack1",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 7,
+      "enableVfxAttributes": false,
+      "modeId": 4,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_attack1_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Attack2",
+      "_name": "Attack2",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 8,
+      "enableVfxAttributes": false,
+      "modeId": 5,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_attack2_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Block",
+      "_name": "Block",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 9,
+      "enableVfxAttributes": false,
+      "modeId": 6,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_block_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Cast",
+      "_name": "Cast",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 10,
+      "enableVfxAttributes": false,
+      "modeId": 7,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_cast_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Skill1",
+      "_name": "Skill1",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 13,
+      "enableVfxAttributes": false,
+      "modeId": 8,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {},
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Skill2",
+      "_name": "Skill2",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 14,
+      "enableVfxAttributes": false,
+      "modeId": 9,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_skill2_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Skill3",
+      "_name": "Skill3",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 15,
+      "enableVfxAttributes": false,
+      "modeId": 10,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {},
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Skill4",
+      "_name": "Skill4",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 16,
+      "enableVfxAttributes": false,
+      "modeId": 11,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {},
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Dead",
+      "_name": "Dead",
+      "audioId": "",
+      "loopCount": 0,
+      "stateId": 17,
+      "enableVfxAttributes": false,
+      "modeId": 12,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {},
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Knockback",
+      "_name": "Knockback",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 18,
+      "enableVfxAttributes": false,
+      "modeId": 13,
+      "skillIndex": -1,
+      "stepIndex": 0,
+      "animationBindings": {
+        "1hs": [
+          "1hs_knockback_flail"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": [],
+      "exitBlendType": 0
+    }
+  ],
+  "transitions": [
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_DEATH",
+      "from": 0,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.2,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEATH_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_NEUTRAL",
+      "from": 1,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.0,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.0,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.1,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_NEUTRAL_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_WALK",
+      "from": 2,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_WALK_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_RUN",
+      "from": 3,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_RUN_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_GETHIT",
+      "from": 4,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.1,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.1,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_WALK",
+          "crossfadeSeconds": 0.1,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_RUN",
+          "crossfadeSeconds": 0.1,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.1,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.1,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_CAST",
+          "crossfadeSeconds": 0.1,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.1,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.1,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.1,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.1,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.1,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_GETHIT_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.1,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_ATTACK1",
+      "from": 7,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.0,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.0,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.0,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.1,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK1_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_ATTACK2",
+      "from": 8,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.0,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.0,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.0,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.1,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.1,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_ATTACK2_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_BLOCK",
+      "from": 9,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.28,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_WALK",
+          "crossfadeSeconds": 0.28,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_RUN",
+          "crossfadeSeconds": 0.28,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_BLOCK_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_CAST",
+      "from": 10,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_CAST_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_SKILL1",
+      "from": 13,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL1_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_SKILL2",
+      "from": 14,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL2_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_SKILL3",
+      "from": 15,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.25,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.25,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.25,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL3_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_SKILL4",
+      "from": 16,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_SKILL4_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_DEAD",
+      "from": 17,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_DEAD_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "transitions_from_PMODE_KNOCKBACK",
+      "from": 18,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_DEATH",
+          "crossfadeSeconds": 0.2,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_NEUTRAL",
+          "crossfadeSeconds": 0.2,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_WALK",
+          "crossfadeSeconds": 0.2,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_RUN",
+          "crossfadeSeconds": 0.2,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_GETHIT",
+          "crossfadeSeconds": 0.1,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_ATTACK1",
+          "crossfadeSeconds": 0.2,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_ATTACK2",
+          "crossfadeSeconds": 0.2,
+          "to": 8
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_BLOCK",
+          "crossfadeSeconds": 0.2,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_CAST",
+          "crossfadeSeconds": 0.2,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_SKILL1",
+          "crossfadeSeconds": 0.2,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_SKILL2",
+          "crossfadeSeconds": 0.2,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_SKILL3",
+          "crossfadeSeconds": 0.2,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_SKILL4",
+          "crossfadeSeconds": 0.2,
+          "to": 16
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_DEAD",
+          "crossfadeSeconds": 0.2,
+          "to": 17
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "transition_from_PMODE_KNOCKBACK_to_PMODE_KNOCKBACK",
+          "crossfadeSeconds": 0.2,
+          "to": 18
+        }
+      ]
+    }
+  ]
+}

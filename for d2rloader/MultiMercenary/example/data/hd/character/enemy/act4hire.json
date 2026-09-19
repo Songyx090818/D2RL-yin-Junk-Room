@@ -246,6 +246,18 @@
       },
       {
         "path": "data/hd/overlays/paladin/aura_thorns_front.json"
+      },
+      {
+        "path": "data/hd/items/weapon/mace/flail.json"
+      },
+      {
+        "path": "data/hd/items/armor/voodoo_head/demon_head.json"
+      },
+      {
+        "path": "data/hd/character/enemy/act4hire/act4hire_flail_state_machine.json"
+      },
+      {
+        "path": "data/hd/items/armor/helmet/bone_helm.json"
       }
     ],
     "variantdata": [],
@@ -862,6 +874,35 @@
           "floorModel": false,
           "terrainBlendEnableYUpBlend": false,
           "terrainBlendMode": 1
+        },
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_head_BoneHelm",
+          "filename": "data/hd/items/armor/helmet/bone_helm.json",
+          "overrideBoneName": "helmet",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_head_BoneHelm_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": 0.03,
+              "z": -0.09
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.07,
+              "y": 1.06,
+              "z": 1.1
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "head",
+          "variant": "lit"
         }
       ]
     },
@@ -1312,6 +1353,78 @@
           "floorModel": false,
           "terrainBlendEnableYUpBlend": false,
           "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_rhand",
+      "id": 1813207430,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_rhand_UnitAttachment",
+          "filename": "data/hd/items/weapon/mace/flail.json",
+          "overrideBoneName": "R_weapon_attach",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_rhand_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.97,
+              "y": 0.97,
+              "z": 0.97
+            }
+          },
+          "attachmentStateMachineFilename": "data/hd/character/enemy/act4hire/act4hire_flail_state_machine.json",
+          "part": "rhand",
+          "variant": "lsd"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_shield",
+      "id": 2192653682,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_shield_UnitAttachment",
+          "filename": "data/hd/items/armor/voodoo_head/demon_head.json",
+          "overrideBoneName": "L_weapon_attach",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_shield_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": -0.04,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.07,
+              "y": 1.07,
+              "z": 1.07
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "shield",
+          "variant": "buc"
         }
       ]
     }
