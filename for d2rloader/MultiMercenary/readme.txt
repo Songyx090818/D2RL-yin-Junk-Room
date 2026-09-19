@@ -34,7 +34,7 @@ Other elements, such as mercenary skill sprites, JSON files, and strings, should
 Please refer to the example files for guidance.
 
 Q: Wouldn’t having too many mercenaries be overpowered?  
-A: Yes, it would. That’s why the default value is set to 2. You’ll need to adjust the mercenary balance yourself as needed.
+A: Yes, it would. You’ll need to adjust the mercenary balance yourself as needed.
 
 Q: Is it okay to use this without an Act 4 mercenary?  
 A: Yes, there is no problem. If you do not add one in the TXT files, Tyrael’s hire window will be disabled automatically.
