@@ -1,9 +1,16 @@
-Hire multiple mercenaries.
+## Hire multiple mercenaries.
 You can set the maximum number of mercenaries in the `toml` file. The maximum value is 5, and the default value is 2.
 Mods that allow mercenary levels above 255 are currently not supported.
 I was going to do more testing, but I simply don’t have enough time, so I’m releasing it as is.
 This is closer to a beta version, so please back up your save files before using it. Be aware that there may be issues, and use it at your own risk.
 You can adjust the position of the arrows in the mercenary inventory by editing the JSON file inside the plugin's own MPQ.
+It varies depending on the mod, but the arrow position is currently set based on the retail inventory layout.
+If you are using an expanded inventory, open:
+`d2rloader\plugins\d2rl-multi-mercenary.mpq\data\global\ui\layouts\multi-mercenary\MercenaryArrowshd.json`
+and change:
+`"rect": { "x": 500, "y": 1380, "width": 64, "height": 64 }`
+If you set the `Y` value to around `1439`, the arrows should be positioned a bit lower.
+
 
 plugins
 d2rloader\plugins\d2rl-multi-mercenary.dll
@@ -18,9 +25,9 @@ Since I don't know which mod you're using, the mercenary skill icon config is di
 If you enable it, the default retail skill icons will be used.
 Unfortunately, it's not possible to make it compatible with every mod, so I appreciate your understanding. The example mercenary is basically a Necromancer using Teeth, Bone Spear, Bone Spirit, and a few curses. I also gave him a Bone Helm, a Flail, and a Demon Head.
 
-<If you want to add an Act 4 mercenary directly>
+If you want to add an Act 4 mercenary directly
 In `hireling.txt`, setting `Seller` to `367` will enable Tyrael's hire window.
-For the remaining class-related settings, match them to the appropriate `index` values in `monstats.txt`.
+For the remaining class, match them to the appropriate `index` values in `monstats.txt`.
 Other elements, such as mercenary skill sprites, JSON files, and strings, should be added as appropriate for your own mod.
 Please refer to the example files for guidance.
 
