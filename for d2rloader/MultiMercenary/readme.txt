@@ -1,5 +1,6 @@
 ## Hire multiple mercenaries.
-You can set the maximum number of mercenaries in the `toml` file. The maximum value is 5, and the default value is 2.
+You can set the maximum number of mercenaries in the `toml` file. The maximum value is 5, and the default value is 5.(If you increase the number of mercenaries, equip them with items, and then reduce the mercenary count in the TOML file, the items on the extra mercenaries will disappear. Please keep this in mind.
+)
 Mods that allow mercenary levels above 255 are currently not supported.
 I was going to do more testing, but I simply don’t have enough time, so I’m releasing it as is.
 This is closer to a beta version, so please back up your save files before using it. Be aware that there may be issues, and use it at your own risk.
