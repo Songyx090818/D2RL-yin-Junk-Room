@@ -1,6 +1,7 @@
 ## Hire multiple mercenaries.
 You can set the maximum number of mercenaries in the `toml` file. The maximum value is 5, and the default value is 5.(If you increase the number of mercenaries, equip them with items, and then reduce the mercenary count in the TOML file, the items on the extra mercenaries will disappear. Please keep this in mind.
 )
+You can give potions to each mercenary through their individual icons. If you use the hotkey, it will check the first mercenary for things like low health, poison, or being frozen. If there’s no issue, it then moves on to the next mercenary and applies the potion there instead.
 Mods that allow mercenary levels above 255 are currently not supported.
 I was going to do more testing, but I simply don’t have enough time, so I’m releasing it as is.
 This is closer to a beta version, so please back up your save files before using it. Be aware that there may be issues, and use it at your own risk.
