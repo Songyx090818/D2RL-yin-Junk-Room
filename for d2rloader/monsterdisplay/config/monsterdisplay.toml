@@ -3,21 +3,40 @@
 
 [monster-display]
 
+# Read the supplied namespaced HUD from the sibling d2rl-monsterdisplay.mpq folder.
+# true: no stock HUD JSON edits in a mod are needed.
+# false: use the mod/game HUD (custom HP/resistance/aura widgets are then your responsibility).
+use-companion-hud = true
+
+# native: preserve the game's text/controller-icon choice (invalid/missing-value fallback).
+# text: element names by default (Fire / localized name); edit Immune* values freely.
+# icons: original game immunity shields with a prohibition overlay.
+# text uses this plugin's strings.json. Keep Icon* glyph values unchanged
+# when using icons: those native result markers select the matching custom sprites.
+# To enable icons, change the value below to "icons" and restart the game.
+# The sibling d2rl-monsterdisplay.mpq includes all required sprites.
+# Custom icons require its HUD widgets; missing widgets fall back to native shields.
+# Immunity order follows the first occurrence of each resistance-template element.
+# Omitted elements are appended; immunity is never hidden merely by omitting a number.
+# The immunity decision, sunder rules, colors and damage calculation are unchanged.
+# Invalid values fall back to native. Restart after editing.
+immunity-style = "naitve"
+
 # -----------------------------------------------------------------------------
 # Display options
 # -----------------------------------------------------------------------------
 show-monster-hp = true
+# LevelLabel in the companion strings.json supplies the prefix for each language.
 show-monster-level = true
 show-resistances = true
 
-# Separates Aura Enchanted from the unique-property row and displays the active
-# aura skill name and final level on its own gold row. Skill names follow the
-# current game language automatically.
+# Appends the aura skill name and its final level to the game's Aura Enchanted
+# modifier text. The skill name follows the current game language automatically.
 # Examples:
-#   Korean : 오라 강화 (광신 Lv.13)
-#   English: Aura Enchanted (Fanaticism Lv.13)
+#   Korean : 오라 강화(광신 Lv. 13)
+#   English: Aura Enchanted(Fanaticism Lv. 13)
 # A Herald with two active auras can show both names and levels, separated by /.
-# Set to false to keep Aura Enchanted in the original unique-property row.
+# Set to false to keep the original modifier text unchanged.
 show-aura-skill-and-level = true
 
 # -----------------------------------------------------------------------------
@@ -28,23 +47,23 @@ show-aura-skill-and-level = true
 # {color:ID} changes the color of following literal text such as P:, /, |, or •.
 # Resistance values keep the individual colors configured below.
 resistance-template = "{fire}{color:0} • {lightning}{color:0} • {cold}{color:0} • {poison}{color:0} • {magic}{color:0} • {physical}"
+
 # Minimum effective resistance shown by Monster Display.
 # Keep -100 for normal game behavior. When ResistanceFloor changes [monsters],
 # set this to the same minimum_resistance value (for example -1000).
 # Values greater than -100 are invalid and fall back to -100.
-
 minimum-displayed-resistance = -100
 
 # Default color for literal text without a preceding {color:ID} directive.
 resistance-separator-color = 0
 
 # Individual resistance value colors.
-resistance-fire-color = 1
-resistance-lightning-color = 9
-resistance-cold-color = 3
-resistance-poison-color = 2
-resistance-magic-color = 8
-resistance-physical-color = 4
+resistance-fire-color = 0x01
+resistance-lightning-color = 0x09
+resistance-cold-color = 0x03
+resistance-poison-color = 0x02
+resistance-magic-color = 0x08
+resistance-physical-color = 0x04
 
 # D2R inline color IDs (decimal or hexadecimal, valid range 0 through 38).
 #  0 White         1 Red           2 BrightGreen   3 Blue
@@ -78,22 +97,23 @@ resistance-physical-color = 4
 # resistance-template = "{fire}{color:3} • {lightning}{color:1} • {cold}{color:2} • {poison}"
 
 # -----------------------------------------------------------------------------
-# JSON layout reference
+# Optional companion HUD customization
 # -----------------------------------------------------------------------------
-# Widget names:
-#   Name / HPValue / LevelValue                         = PC top display
-#   HPValueScreen / LevelValueScreen                    = controller top display
-#   HPValueTarget / LevelValueTarget                    = controller target display
-#   ResistanceRowCompact / ResistanceRowNormal          = resistance row
-#   AuraCompact / AuraNormal                             = separate aura row
-#   ResistanceRowExpand                                  = resistance below Unique + Aura
-#   Additional                                           = vanilla immunity text
-#   AdditionalExpand                                     = immunity below Unique + Aura
-# Aura layout states:
-#   No Unique + Aura : AuraCompact -> ResistanceRowNormal -> Additional
-#   Unique + Aura    : Unique -> AuraNormal -> ResistanceRowExpand
-#                      -> AdditionalExpand
-# Layout files:
-#   data/global/ui/layouts/hudmonsterhealthhd.json
-#   data/global/ui/layouts/controller/hudmonsterhealthhd.json
-#   data/global/ui/layouts/controller/pc/hudmonsterhealthhd.json
+# The supplied MPQ already contains the required widgets. Editing JSON is optional.
+# Automatic level text uses Unique; no LevelValue widget is required.
+# Widget names for custom layouts:
+#   Name / HPValue                                     = PC top display
+#   HPValueScreen / HPValueTarget                       = controller HP display
+#   Unique                                             = level and type/properties
+#   AuraCompact / AuraNormal                           = aura details
+#   ResistanceRowCompact / ResistanceRowNormal / ResistanceRowExpand = resistances
+#   Additional / AdditionalExpand                      = immunity display
+# Paths inside d2rl-monsterdisplay.mpq:
+#   data/global/ui/layouts/monsterdisplay/hudmonsterhealthhd.json
+#   data/global/ui/layouts/controller/monsterdisplay/hudmonsterhealthhd.json
+#   data/global/ui/layouts/controller/pc/monsterdisplay/hudmonsterhealthhd.json
+#   data/global/ui/layouts/controller/console/monsterdisplay/hudmonsterhealthhd.json
+#   data/global/ui/layouts/controller/pc/handheld/monsterdisplay/hudmonsterhealthhd.json
+# Editable text: Immune* and LevelLabel values for each language.
+# Keep Icon* keys and glyph values unchanged.
+#   data/local/lng/strings/d2rloader/monsterdisplay/strings.json

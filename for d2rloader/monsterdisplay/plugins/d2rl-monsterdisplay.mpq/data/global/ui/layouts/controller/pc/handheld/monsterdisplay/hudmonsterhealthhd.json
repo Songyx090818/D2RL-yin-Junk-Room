@@ -1,0 +1,5 @@
+{
+    "basedOn": "Controller/PC/monsterdisplay/HUDMonsterHealthHD.json",
+    "type": "MonsterHealthPanel",
+    "name": "HUDMonsterHealth"
+}

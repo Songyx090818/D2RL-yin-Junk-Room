@@ -1,7 +1,6 @@
 plugins
 d2rloader\plugins\monsterdisplay.dll
-d2rloader\config\monsterdisplay.toml
+d2rloader\plugins\monsterdisplay.dll\d2rl-monsterdisplay.mpq
 
-if you use my basic layout
-layouts folder json need to be
-data\global\ui\layouts
+config
+d2rloader\config\monsterdisplay.toml
